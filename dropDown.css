@@ -1,0 +1,5 @@
+.drip-down-container {
+    overflow: hidden;
+    height: 0;
+    transition: 0.2s;
+}

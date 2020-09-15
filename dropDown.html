@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="DropDown.js"></script>
+    <link rel="stylesheet" href="DropDown.css">
+</head>
+<body>
+<a class="drip-down-button" href="javascript:void(0)">drip-down-button</a>
+<div class="drip-down-container" style="height: 0">
+    <div class="drip-down-content">
+        drip-down-container
+        <br>
+    </div>
+</div>
+
+<script>
+    let drop = new DropDown({
+        button: 'drip-down-button',
+        container: 'drip-down-container',
+        content: 'drip-down-content',
+    })
+    /**
+     DropDownButton - обязателен
+     DropDownContainer - обязателен
+     DropDownContent - обязателен
+
+     Нужен DropDownContent с таким же размером как и DropDownContainer
+     **/
+</script>
+</body>
+</html>
+
